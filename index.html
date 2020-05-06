@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Quiz Application </title>
+  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>  
+  <div class="quiz-home-box custom-box show">
+    <h4>You think you know about coronavirus(COVID-19)?</h4>
+    <h4>Then take this quiz to see if you have got all the right information about COVID-19</h4>
+    <h4>You only have 15 seconds to attempt each question.</h4>
+    <button type="button" class="start-quiz-btn btn">Dive In</button>
+  </div>
+  <div class="quiz-box custom-box">
+    <div class="stats">
+      <div class="quiz-time">
+        <div class="remaining-time"></div>
+        <span class="time-up-text">Times Up</span>
+      </div>
+      <div class="score-board">
+        <span class="score-text">Score:</span>
+        <span class="correct-answers"></span>
+      </div>
+    </div>
+    <div class="question-box">
+      <div class="current-question-num">
+       
+      </div>
+      <div class="question-text">
+       
+      </div>
+    </div>
+    <div class="option-box">
+       
+    </div>
+    <div class="answer-description">
+      
+    </div>
+    <div class="next-question">
+      <button Type="button" class="next-question-btn btn">Next Question</button>
+      <button Type="button" class="see-result-btn btn">Your Result</button>
+    </div>
+  </div>
+  <div class="quiz-over-box custom-box">
+    <div class="mov-text">
+    </div>
+    <h1>Quiz Result </h1>
+    <h4>Total Questions: <span class="total-questions"></span></h4>
+    <h4>Attempted Questions: <span class="total-attempt"></span></h4>
+    <h4>Correctly Answered: <span class="total-correct"></span></h4>
+    <h4>Wrongly Answered: <span class="total-wrong"></span></h4>
+    <h4>Percentage Score: <span class="percentage"></span></h4>
+    <button class="start-again-quiz-btn btn">Try Again</button>
+    <button class="go-home-btn btn">Back To Home</button>
+  </div>
+
+ 
+<script src="script.js"></script>
+</body>
+</html>
+
+
